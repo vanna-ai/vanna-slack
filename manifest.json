@@ -1,0 +1,56 @@
+{
+  "display_information": {
+      "name": "VannaAI",
+      "background_color": "#373940"
+  },
+  "features": {
+      "bot_user": {
+          "display_name": "VannaAI",
+          "always_online": false
+      },
+      "slash_commands": [
+          {
+              "command": "/askvanna",
+              "url": "https://af63-67-80-18-192.ngrok-free.app/slash",
+              "description": "Chat with Vanna",
+              "usage_hint": "<Enter text>",
+              "should_escape": false
+          }
+      ]
+  },
+  "oauth_config": {
+      "redirect_urls": [
+          "https://af63-67-80-18-192.ngrok-free.app/oauth"
+      ],
+      "scopes": {
+          "bot": [
+              "channels:history",
+              "channels:read",
+              "commands",
+              "groups:history",
+              "groups:read",
+              "groups:write",
+              "im:history",
+              "mpim:history",
+              "im:read",
+              "mpim:read",
+              "chat:write"
+          ]
+      }
+  },
+  "settings": {
+      "event_subscriptions": {
+          "request_url": "https://af63-67-80-18-192.ngrok-free.app/event",
+          "bot_events": [
+              "app_home_opened",
+              "message.channels",
+              "message.groups",
+              "message.im",
+              "message.mpim"
+          ]
+      },
+      "org_deploy_enabled": false,
+      "socket_mode_enabled": false,
+      "token_rotation_enabled": false
+  }
+}

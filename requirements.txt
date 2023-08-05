@@ -1,0 +1,9 @@
+Flask==2.3.2
+Flask-Cors==4.0.0
+python-dotenv==1.0.0
+requests==2.31.0
+vanna
+pandas
+snowflake-connector-python
+cloud-sql-python-connector[pg8000]
+gunicorn
