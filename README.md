@@ -1,5 +1,7 @@
+<img width="1392" alt="Screenshot 2023-12-14 at 9 39 33 AM" src="https://github.com/vanna-ai/vanna-slack/assets/7146154/facc15fb-cf03-4e0f-aa31-639440c81d7c">
 
 ```bash
+
 /ngrok http 8081
 ```
 
